@@ -1,6 +1,9 @@
-# CNetwork
 
-CNetwork is a high-performance C library for the analysis of complex directed and undirected networks.
+<img src="assets/logo.svg" alt="CNetwork Logo" width="450"/> right after <div align="center">
+
+# 🚀 CNetwork
+
+**A High-Performance C Library for Complex Network Analysis**
 
 ## Features
 
