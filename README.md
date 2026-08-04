@@ -21,17 +21,6 @@
   <img src="https://img.shields.io/badge/OpenMP-supported-success">
 </p>
 
-# 🚀 CNetwork
-
-**A High-Performance C Library for Complex Network Analysis**
-
-*A lightweight, high-performance C library for large-scale complex network analysis, designed as a fast alternative to high-level graph libraries such as NetworkX.*
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-</div>
-
----
 
 ## 📌 Overview
 
