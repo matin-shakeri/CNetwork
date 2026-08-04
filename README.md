@@ -27,3 +27,4 @@ CNetwork is a high-performance C library for the analysis of complex directed an
 ## Status
 
 This library is under active development.
+A high-performance C library for directed complex network analysis.
