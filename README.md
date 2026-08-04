@@ -36,9 +36,12 @@ The diagram below illustrates the structural design of CNetwork, moving from und
 +-------------------------------------------------------------------+
 |                          Algorithms Layer                         |
 |   +-------------------+  +-------------------+  +---------------+ |
-|   |     PageRank      |  | Network Entropy   |  | Line Digraph  | |
+|   |    Centralities   |  | Shannon Entropy   |  | Line Digraph  | |
 |   +-------------------+  +-------------------+  +---------------+ |
-|   | Betweenness Cent. |  | Random Walks      |  | Assortativity | |
+|   |     Line Graph    |  | Random Walks      |  | Assortativity | |
+|   +-------------------+  +-------------------+  +---------------+ |
+|   +-------------------+  +-------------------+  +---------------+ |
+|   |     Clustering    |  | spectrum          |  |  Corellation  | |
 |   +-------------------+  +-------------------+  +---------------+ |
 +-------------------------------------------------------------------+
                                   |
