@@ -1,12 +1,31 @@
 
-<img src="assets/logo.svg" alt="CNetwork Logo" width="450"/>
-<div align="center">
+<p align="center">
+  <img src="assets/logo.svg" alt="CNetwork Logo" width="450">
+</p>
+
+<h1 align="center">🚀 CNetwork</h1>
+
+<p align="center">
+  <b>A High-Performance C Library for Complex Network Analysis</b>
+</p>
+
+<p align="center">
+  <i>A lightweight, ultra-fast C substitute for Python's NetworkX.</i>
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  </a>
+  <img src="https://img.shields.io/badge/C-C99-blue">
+  <img src="https://img.shields.io/badge/OpenMP-supported-success">
+</p>
 
 # 🚀 CNetwork
 
 **A High-Performance C Library for Complex Network Analysis**
 
-*A lightweight, ultra-fast C substitute for Python's NetworkX.*
+*A lightweight, high-performance C library for large-scale complex network analysis, designed as a fast alternative to high-level graph libraries such as NetworkX.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -80,7 +99,7 @@ The diagram below illustrates the structural design of CNetwork, moving from und
 
 ```bash
 # Clone the repository
-git clone [https://github.com/matin-shakeri/CNetwork.git](https://github.com/matin-shakeri/CNetwork.git)
+git clone https://github.com/matin-shakeri/CNetwork.git
 cd CNetwork
 
 # Build the library and examples using GCC
