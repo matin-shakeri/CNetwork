@@ -26,12 +26,13 @@
 
 The diagram below illustrates the structural design of CNetwork, moving from underlying data structures up to high-level analysis routines and visualization integration:
 
+```text
 +-------------------------------------------------------------------+
 |                        Application Layer                          |
 |         (User Code / Benchmarks / Data Analysis Pipelines)        |
 +-------------------------------------------------------------------+
-|
-v
+                                  |
+                                  v
 +-------------------------------------------------------------------+
 |                          Algorithms Layer                         |
 |   +-------------------+  +-------------------+  +---------------+ |
@@ -40,8 +41,8 @@ v
 |   | Betweenness Cent. |  | Random Walks      |  | Assortativity | |
 |   +-------------------+  +-------------------+  +---------------+ |
 +-------------------------------------------------------------------+
-|
-v
+                                  |
+                                  v
 +-------------------------------------------------------------------+
 |                     Core Graph Representation                     |
 |   +-----------------------------------------------------------+   |
@@ -50,14 +51,13 @@ v
 |   | Memory Allocator, Node/Edge Management, Thread Pool       |   |
 |   +-----------------------------------------------------------+   |
 +-------------------------------------------------------------------+
-|
-v
+                                  |
+                                  v
 +-------------------------------------------------------------------+
 |                  IO & Visualization Integration                   |
 |      (Gnuplot Pipe Export, GraphML/EdgeList File Loaders)         |
 +-------------------------------------------------------------------+
-
----
+```
 
 ## 🚀 Key Features
 
