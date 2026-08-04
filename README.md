@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <i>A lightweight, ultra-fast C substitute for Python's NetworkX.</i>
+  <i>A lightweight, high-performance C library for large-scale complex network analysis, designed as a fast alternative to high-level graph libraries such as NetworkX.</i>
 </p>
 
 <p align="center">
